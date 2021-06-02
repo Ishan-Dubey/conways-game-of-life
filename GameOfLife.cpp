@@ -86,7 +86,7 @@ int main(){
 		goto rowHandle;
 	}
 	colHandle:
-	cout<<"Enter width of columns: ";
+	cout<<"Enter width of grid: ";
 	cin >> cols;
 	if(cols<=0){
 		cout<<"Width must be positive\n";
