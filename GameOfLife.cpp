@@ -1,3 +1,13 @@
+/* CONWAY'S GAME OF LIFE
+ * Implemented by Ishan Dubey
+ * 
+ * "People think that mathematics is complicated.
+ * Mathematics is the simple bit,
+ * it’s the stuff we CAN understand.
+ * It’s cats that are complicated."
+ * - John Conway
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 void welcome(){
