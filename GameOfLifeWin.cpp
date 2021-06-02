@@ -99,7 +99,7 @@ int main(){
 		cout<<"Speed must be from 1 to 10.\n";
 		goto speedHandle;
 	}
-	cout<<"\e[1;1H\e[2J"; //Regex to clear screen
+	system("cls"); //Regex to clear screen
 	speed = (11-speed)*100; //Scale speed to milliseconds
 	vector<vector<bool> > grid(rows+2, vector<bool>(cols+2));
 	vector<vector<bool> > gen(rows+2, vector<bool>(cols+2));
@@ -125,7 +125,7 @@ int main(){
 		}
 		std::this_thread::sleep_for(std::chrono::milliseconds(speed)); //Sleep
 		
-		cout<<"\e[1;1H\e[2J"; //Clear screen
+		system("cls"); //Clear screen
 	}
 	return 0;
 }

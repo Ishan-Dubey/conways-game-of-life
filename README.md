@@ -10,7 +10,9 @@ A generation of the Game of Life:
 ![alt text](https://github.com/Ishan-Dubey/conways-game-of-life/blob/master/Demo/Screenshot.png "Screenshot")
 ## How to Execute
 
-Download the GameOfLife.cpp file from the repository, compile and run! I compiled and tested using `g++ -std=c++17`.
+Download the GameOfLifeLinux.cpp or GameOfLifeWin.cpp file from the repository as per your operating system, compile and run! I compiled and tested using `g++ -std=c++17` on Ubuntu and MinGW on Windows.
+
+Note: In case of the error "'std::this_thread' has not been declared" on Windows machines, use MinGW with POSIX Threads.
 
 ---
 In memory of John Conway.
